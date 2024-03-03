@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+/*! font-family: "Inter", sans-serif; */
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 5rem;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+html {
+    font-size: 62.5%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;  
+    text-decoration: none;     
+}
+
+body{
+    
+    font-family: "Inter", sans-serif;
+    font-size: 1.2rem;
+    background-color: var(--offblack);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+:root {
+    --green:hsl(75, 94%, 57%);
+    --white:hsl(0, 0%, 100%);
+    --grey: hsl(0, 0%, 20%);
+    --darkgrey:hsl(0, 0%, 12%);
+    --offblack:hsl(0, 0%, 8%);
+
+}
+
+.container {
+    width: 20%;
+    height: auto;
+    background-color: var(--darkgrey);
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 4rem 0 2rem 0;
+    min-width: 33rem;
+}
+
+.mainBody{
+    width: 85%;
+}
+
+.image img {
+    width: 20%;
+    border-radius: 50%;
+}
+
+.text {
+    width: 100%;
+    font-size: 2rem;
+        
+}
+
+.text h3 {
+    color: var(--white);
+    font-weight: 400;
+    padding: 2rem 0 1rem 0;
+}
+
+.greenColor {
+    color: var(--green);
+    font-size: 1.4rem;
+    font-weight: bold;
+    padding-bottom: 3rem;
+}
+
+.param {
+    font-size: 1.5rem;
+    color: var(--white);
+    font-weight: lighter;
+    padding-bottom: 2rem;
+}
+
+.section {
+    width: 100%;
+    padding-bottom: 2rem;
+    
+}
+
+.section li {
+    width: 100%;
+    height: 4rem;
+    background-color: var(--grey);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;  
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: all 700ms;
+}
+
+.section li a {    
+    font-size: 2rem;
+    
+    color: var(--white);
+    font-weight: 400;
+    font-size: 1.6rem;
+}
+
+.section li:hover {
+    background-color: var(--green);    
+}
+
+
+@media screen and (max-width:380px) {
+    .attribution {
+        margin-top: 2rem;
+    }
+
+    .container {
+        margin-top: 5rem;
+    }
+}
